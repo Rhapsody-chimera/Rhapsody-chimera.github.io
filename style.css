@@ -251,3 +251,59 @@ a {
         padding: 25px;
     }
 }
+.table-wrapper {
+    width: 100%;
+
+    overflow-x: auto;
+}
+
+.timetable {
+    width: 100%;
+
+    min-width: 850px;
+
+    border-collapse: collapse;
+
+    margin-top: 25px;
+}
+
+.timetable th,
+.timetable td {
+
+    padding: 15px;
+
+    border: 1px solid rgba(255,255,255,0.1);
+
+    text-align: center;
+
+    vertical-align: middle;
+}
+
+.timetable th {
+
+    background: rgba(100,130,220,0.15);
+
+    color: white;
+}
+
+.timetable td {
+
+    color: #cbd3e6;
+}
+
+.timetable tr:hover td {
+
+    background: rgba(100,140,255,0.06);
+}
+
+.timetable .clash {
+
+    background: rgba(220,70,90,0.12);
+
+    color: #ffb6c1;
+}
+
+.timetable .clash:hover {
+
+    background: rgba(220,70,90,0.20);
+}
